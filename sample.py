@@ -1,6 +1,6 @@
 from pyes import *
 
-conn = ES('127.0.0.1:9200') # Use HTTP
+conn = ES('127.0.0.1:29128') # Use HTTP
 try:
     conn.indices.delete_index("test-index")
 except:
