@@ -4,3 +4,5 @@ python:
 services: 
  - elasticsearch
 install: pip install --use-mirrors -r requirements.txt
+after_install:
+ - python sample.py
