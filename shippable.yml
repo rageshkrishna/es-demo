@@ -1,5 +1,6 @@
 language: python
-services: 
- - elasticsearch
 python:
  - "2.7"
+services: 
+ - elasticsearch
+install: pip install --use-mirrors -r requirements.txt
