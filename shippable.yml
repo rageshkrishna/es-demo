@@ -1,6 +1,6 @@
 # Dummy update
-language: python
-python:
+language: unknown
+unknown:
  - "2.7"
 services: 
  - elasticsearch
